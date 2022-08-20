@@ -9,7 +9,7 @@ def suma(event, context):
     return {
         "status": 200,
         "message": "ok",
-        "suma": operando_b + operando_a
+        "resultado": operando_b + operando_a
     }
 
 
